@@ -11,6 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "commitlint -e $GIT_PARAMS",
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm commitmsg",
+      "pre-push": "npm commitmsg",
+      "...": "..."
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cathe-zhang/python-notes.git"
