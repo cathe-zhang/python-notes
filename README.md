@@ -208,3 +208,17 @@ while True:
         break;
 print('你终于猜对了')
 ```
+
+### sleep()函数
+```python
+import time  # 调用time模块
+time.sleep(secs)  
+# 使用time模块的sleep()函数，参数是间隔的秒数
+# time.sleep(1.5) 表示停留1.5秒后再运行后续代码
+```
+
+### randint()函数
+```python
+import random
+print(random.randint(0,9))  # 随机生成0-9（含0和9）的整数
+```
